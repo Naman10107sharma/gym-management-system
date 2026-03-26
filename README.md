@@ -11,7 +11,7 @@ This project helps gym owners manage members, trainers, plans, payments, and mem
 
 (You can change inside database)
 
-Username: fitness
+Username: fitness,
 Password: fitness123
 
 ## ⚙️ Installation Guide

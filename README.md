@@ -32,9 +32,9 @@ Password: fitness123
 4. plans
 5. payments
 
-## 🚀 Features
+# 🚀 Features
 
-## 📊 2. Professional Dashboard
+## 📊 1. Professional Dashboard
 
 1. Total Members Counter
 2. Total Trainers Counter
@@ -44,7 +44,7 @@ Password: fitness123
 6. Expired Members Counter
 7. Clickable dashboard card
 
-## 👥 3. Member Management
+## 👥 2. Member Management
 
 1. Add Member
 2. Edit Member
@@ -56,7 +56,7 @@ Password: fitness123
 8. Expired Member highlight (Red row)
 9. Delete confirmation popup
 
-## 💳 4. Membership Plans
+## 💳 3. Membership Plans
 
 1. Add Plan
 2. View Plans
@@ -64,27 +64,27 @@ Password: fitness123
 4. Plan Duration (in days)
 5. Plan Price
 
-## 🏋️ 5. Trainer Management
+## 🏋️ 4. Trainer Management
 
 1. Add Trainer
 2. Edit Trainer
 3.Delete Trainer
 4. earch Trainer
 
-## 💰 6. Payment Management
+## 💰 5. Payment Management
 
 1. Add Payment
 2. View Payment List
 3. Automatic Revenue Calculation
 4. Revenue updates when member is deleted
 
-## 📅 7. Expiry System
+## 📅 6. Expiry System
 
 1. Expiry Date auto calculation
 2. Expired members highlighted
 3. Expired Members Counter on Dashboard
 
-## 🔎 8. Search System
+## 🔎 7. Search System
 
 1. Member search
 2. Trainer search

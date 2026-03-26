@@ -1,0 +1,342 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background: linear-gradient(135deg,#ccc);
+color:#060010;
+}
+
+/* Sidebar */
+
+.sidebar{
+width:220px;
+height:100vh;
+background:#170d27;
+position:fixed;
+color:white;
+padding-top:20px;
+transition:0.3s;
+}
+
+.sidebar h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+/* Sidebar Links */
+
+.sidebar a{
+display:block;
+color:white;
+padding:12px 15px;
+text-decoration:none;
+transition:all 0.3s ease;
+border-left:4px solid transparent;
+}
+
+.sidebar a.active{
+background:#2a1d44;
+border-left:4px solid #00c6ff;
+padding-left:18px;
+}
+
+/* Hover Effect */
+
+.sidebar a:hover{
+background:#2a1d44;
+padding-left:22px;
+border-left:4px solid #00c6ff;
+}
+
+/* Main Content */
+
+.main{
+margin-left:220px;
+padding:20px;
+}
+
+/* Cards Section */
+
+.cards{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#170d27;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+width:200px;
+text-decoration:none;
+color:white;
+transition:0.3s;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.card h3{
+font-size:18px;
+font-weight:500;
+margin-bottom:8px;
+}
+
+.number{
+font-size:28px;
+font-weight:bold;
+margin:0;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Table */
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:8px;
+overflow:hidden;
+}
+
+table th{
+background:#222;
+color:white;
+padding:12px;
+text-align:left;
+}
+
+table td{
+padding:10px;
+border-bottom:1px solid #ddd;
+}
+
+table tr:hover{
+background:#f2f2f2;
+}
+
+/* Buttons */
+
+.btn{
+padding:8px 15px;
+background:linear-gradient(90deg,#007bff,#00c6ff);
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn:hover{
+opacity:0.9;
+}
+
+/* Expired Member Highlight */
+
+.expired{
+background:#ffdddd;
+}
+
+/* Search Box */
+
+/* Professional Search Box */
+
+.search-box{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:20px;
+}
+
+.search-box input{
+padding:10px 15px;
+width:260px;
+border-radius:25px;
+border:1px solid #ccc;
+outline:none;
+transition:all 0.3s ease;
+font-size:14px;
+}
+
+/* Focus Animation */
+
+.search-box input:focus{
+border-color:#00c6ff;
+box-shadow:0 0 8px rgba(0,198,255,0.4);
+width:300px;
+}
+
+/* Search Button */
+
+.search-btn{
+padding:10px 18px;
+border:none;
+border-radius:25px;
+background:linear-gradient(90deg,#00c6ff,#0072ff);
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+/* Hover Animation */
+
+.search-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* LOGIN PAGE DESIGN */
+
+.login-page{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:url("../images/gym-bg.jpg") no-repeat center center/cover;
+}
+
+/* Glassmorphism Box */
+
+.login-box{
+width:350px;
+padding:40px;
+border-radius:15px;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+box-shadow:0 8px 32px rgba(0,0,0,0.3);
+text-align:center;
+color:#170d27;
+}
+
+.login-box h2{
+margin-bottom:25px;
+}
+
+/* Input Fields */
+
+.login-box input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:5px;
+outline:none;
+}
+
+/* Button */
+
+.login-box button{
+width:100%;
+padding:10px;
+border:none;
+border-radius:5px;
+background:linear-gradient(90deg,#00c6ff,#0072ff);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.login-box button:hover{
+opacity:0.9;
+}
+
+/* Password Toggle */
+
+.password-box{
+position:relative;
+}
+
+.password-box span{
+position:absolute;
+right:10px;
+top:12px;
+cursor:pointer;
+color:black;
+}
+
+/* Chart Box */
+.chart-box{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+margin-top:30px;
+width:90%;
+}
+
+/* FORM DESIGN */
+
+.form-card{
+background:white;
+padding:30px;
+border-radius:10px;
+width:400px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-group{
+margin-bottom:15px;
+display:flex;
+flex-direction:column;
+}
+
+.form-group label{
+margin-bottom:5px;
+font-weight:500;
+}
+
+.form-group input,
+.form-group select{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+.form-card{
+background:white;
+padding:30px;
+border-radius:10px;
+width:400px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+margin:auto;
+}
+
+/* Page Headings */
+
+.main h1,
+.main h2{
+font-size:28px;
+font-weight:600;
+color:#111;
+margin-bottom:25px;
+padding-bottom:10px;
+border-bottom:2px solid #071641;
+}
+
+/* Sidebar Logo */
+
+.logo{
+text-align:center;
+margin-bottom:25px;
+}
+
+.logo img{
+width:55px;
+height:55px;
+object-fit:contain;
+display:block;
+margin:0 auto 8px;
+}
+
+.logo span{
+font-family:'Montserrat', sans-serif;
+color:white;
+font-size:22px;
+font-weight:700;
+letter-spacing:1px;
+}

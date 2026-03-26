@@ -4,8 +4,8 @@ A complete Gym Management System built using PHP, MySQL, HTML, CSS, and JavaScri
 This project helps gym owners manage members, trainers, plans, payments, and membership expiry in a simple and professional way.
 
 ## Group Member:
-1.Soumya Soni
-2.Naman Sharma
+1. Soumya Soni
+2. Naman Sharma
 
 ## 🔑 Default Admin Login
 
@@ -26,68 +26,68 @@ Password: fitness123
 
 ## 📊 Database Tables
 
-admin
-members
-trainers
-plans
-payments
+1. admin
+2. members
+3. trainers
+4. plans
+5. payments
 
 ## 🚀 Features
 
 ## 📊 2. Professional Dashboard
 
-Total Members Counter
-Total Trainers Counter
-Total Plans Counter
-Total Payments Counter
-Total Revenue Counter
-Expired Members Counter
-Clickable dashboard card
+1. Total Members Counter
+2. Total Trainers Counter
+3. Total Plans Counter
+4. Total Payments Counter
+5. Total Revenue Counter
+6. Expired Members Counter
+7. Clickable dashboard card
 
 ## 👥 3. Member Management
 
-Add Member
-Edit Member
-Delete Member
-View Members List
-Search Members (Name / Phone / Plan)
-Joining Date selection (Calendar)
-Automatic Expiry Date calculation
-Expired Member highlight (Red row)
-Delete confirmation popup
+1. Add Member
+2. Edit Member
+3. Delete Member
+4. View Members List
+5. Search Members (Name / Phone / Plan)
+6. Joining Date selection (Calendar)
+7. Automatic Expiry Date calculation
+8. Expired Member highlight (Red row)
+9. Delete confirmation popup
 
 ## 💳 4. Membership Plans
 
-Add Plan
-View Plans
-Delete Plan
-Plan Duration (in days)
-Plan Price
+1. Add Plan
+2. View Plans
+3. Delete Plan
+4. Plan Duration (in days)
+5. Plan Price
 
 ## 🏋️ 5. Trainer Management
 
-Add Trainer
-Edit Trainer
-Delete Trainer
-Search Trainer
+1. Add Trainer
+2. Edit Trainer
+3.Delete Trainer
+4. earch Trainer
 
 ## 💰 6. Payment Management
 
-Add Payment
-View Payment List
-Automatic Revenue Calculation
-Revenue updates when member is deleted
+1. Add Payment
+2. View Payment List
+3. Automatic Revenue Calculation
+4. Revenue updates when member is deleted
 
 ## 📅 7. Expiry System
 
-Expiry Date auto calculation
-Expired members highlighted
-Expired Members Counter on Dashboard
+1. Expiry Date auto calculation
+2. Expired members highlighted
+3. Expired Members Counter on Dashboard
 
 ## 🔎 8. Search System
 
-Member search
-Trainer search
+1. Member search
+2. Trainer search
 
 
 
